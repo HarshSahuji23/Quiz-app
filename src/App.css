@@ -1,0 +1,45 @@
+.Quiz {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  border: 3px solid #1e3c72;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+  transition: transform 0.3s ease, color 0.3s ease; /* smooth animation */
+}
+
+.header:hover {
+  /* color: azure; */
+  transform: scale(1.1); /* grows 20% bigger on hover */
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  justify-items: center;
+  padding: 10px;
+  transition: ease-in-out;
+  width: 100%;
+}
+
+.buttons:hover{
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    background-color: rgba(70, 255, 37, 0.74);
+}
+hr{
+  background-color: black;
+  height:2px;
+  border-radius: 10%;
+}
