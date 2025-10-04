@@ -10,7 +10,7 @@ function App() {
     border: "2px solid black",
     padding: "50px",
     borderRadius: "10%",
-    backgroundColor: "rgba(255, 241, 181, 0.81)"
+    backgroundColor: "rgba(255, 175, 3, 0.81)"
   }}
 >      <h1 className="header">Quiz App</h1>
       <Quiz />
